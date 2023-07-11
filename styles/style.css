@@ -28,7 +28,7 @@
     font-weight: 400;
     color: rgba(39, 39, 39, 0.6);
     margin-top: 30px;
-    margin-bottom: 30px;
+    
 }
 .btn-primary{
     background-color: rgba(229, 84, 115, 1);
@@ -38,14 +38,14 @@
     height: 50px;
     width: 160px;
     border: none;
-    border-radius: 8px;   
+    border-radius: 8px;  
+    margin-top: 30px; 
 }
 /* feature section styles */
 
 .feature{
     margin-top: 160px;
     width: 100%;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     
@@ -53,7 +53,6 @@
 .feature-content{
     width: 80%;
     text-align: center;
-    border: 1px solid black;
 
 }
 .heading-title{
@@ -67,13 +66,13 @@
     font-weight: 400;
     color: rgba(39, 39, 39, 0.6);
     margin-top: 24px;
-    margin-bottom: 60px;
+    
     
 }
 .flower-container{
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 60px;;
 }
 .first-img{
     height: 560px;
@@ -112,14 +111,12 @@
     margin-top: 150px;
     margin-bottom: 140px;
     width: 100%;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
 }
 .services{
     width: 80%;
     text-align: center;
-    border: 1px solid black;
     padding: 87px 175px;
     display: flex;
     justify-content: space-between;
@@ -132,4 +129,16 @@
     color: rgba(39, 39, 39, 0.8);
     margin-top: 18px;
 
+}
+.hot-deals{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+}
+.left-part{
+    text-align: center;
 }
