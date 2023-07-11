@@ -130,7 +130,7 @@ body main footer{
 .flower-container{
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid black; */ */
+    /* border: 2px solid black; */
     margin-top: 60px;
 }
 .flower-img-container{
