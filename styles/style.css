@@ -278,7 +278,7 @@ body main footer{
     margin-bottom: 28px;
 }
 .subscribe{
-    display: inline;
+    display: flex;
 }
 input[type="email"]{
     height: 50px;
