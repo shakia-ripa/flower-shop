@@ -150,7 +150,7 @@ body main footer{
 }
 .first-img
 {
-    background-image: url("/resources/rectangle3-1.png");
+    background-image: url("./resources/rectangle3-1.png");
     /* height: 350px;
     width: 300px; */
     background-repeat: no-repeat;
@@ -160,12 +160,12 @@ body main footer{
     
 }
 .second-img{
-    background-image: url("/resources/rectangle3.png");
+    background-image: url("./resources/rectangle3.png");
     background-repeat: no-repeat;
     background-position: center ;
 }
 .third-img{
-    background-image: url("/resources/rectangle3-2.png");
+    background-image: url("./resources/rectangle3-2.png");
     background-repeat: no-repeat;
     background-position: center ;
 }
@@ -257,7 +257,7 @@ body main footer{
     width: 75%;
     height: 450px;
     text-align: center;
-    background-image: url("/resources/rectangle-9.png");
+    background-image: url("./resources/rectangle-9.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
