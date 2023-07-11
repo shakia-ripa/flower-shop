@@ -5,9 +5,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-body main footer{
-    width: 100vw;
-}
+
 .banner{
     background-color: rgba(229, 84, 115, 0.1);    
     display: flex;
@@ -259,7 +257,7 @@ body main footer{
 .deals{
     width: 75%;
     height: 450px;
-    text-align: center;
+    /* text-align: center; */
     background-image: url("../resources/rectangle-9.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -279,18 +277,27 @@ body main footer{
 }
 .subscribe{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe .input-box{
+    width: 60%;
+    margin-right: 16px;
 }
 input[type="email"]{
     height: 50px;
-    width: 860px;
+    width: 100%;
     border: none;
     border-radius: 8px;
     color: rgba(39, 39, 39, 0.6);
     font-size: 20px;
     font-weight: 400;
     padding-left: 22px;
-    margin-bottom: 120px;
-    margin-right: 16px;
+    
+}
+.subscribe button{
+    margin-top: 0px;
 }
 .bottom-part{
     background-color: rgba(17, 16, 16, 1);
