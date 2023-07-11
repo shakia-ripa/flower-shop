@@ -51,7 +51,7 @@
     
 }
 .feature-content{
-    width: 80%;
+    width: 75%;
     text-align: center;
 
 }
@@ -115,7 +115,7 @@
     justify-content: center;
 }
 .services{
-    width: 80%;
+    width: 75%;
     text-align: center;
     padding: 87px 175px;
     display: flex;
@@ -139,6 +139,33 @@
     padding-right: 0px;
     padding-top: 50px;
 }
+.top-heading{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Ephesis', cursive;
+    color: rgba(229, 84, 115, 1);
+    margin-bottom: 12px;
+}
 .left-part{
     text-align: center;
+}
+.right-part{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social-media-container{
+    margin-top: 160px;
+    margin-bottom: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.social-media{
+    width: 75%;
+    text-align: center;
+}
+.flowers{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
