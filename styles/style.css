@@ -125,59 +125,109 @@
     font-weight: 800;
     color: rgba(39, 39, 39, 1);
 }
+.first-section {
+    flex-grow: 1;
+}
+.second-section{
+    flex-grow: 1;
+}
+.third-section{
+    flex-grow: 1;
+}
 .heading-description{
     font-size: 19px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.6);
     margin-top: 24px; 
 }
-
-
 .flower-container{
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 14px;
     margin-top: 60px;
 }
-.flower-img-container{
+
+/* .flower-container{
     height: 600px;
     width: 500px;
     gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;   
+} */
+.first-img-container{
+    height: 475px;
+    width: 425px;
+    border-top-left-radius: 48%;
+    border-top-right-radius: 48%;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding-top: 10px;
+    padding-left: 30px;
 }
-
-.flower-img{
-    /* height: 450px; */
-    width:350px;
-    object-fit: cover;
+.second-img-container{
+    height: 475px;
+    width: 425px;
+    /* height: 500px;
+    width: 450px; */
+    /* height: 485px;
+    width: 435px; */
+    border-top-left-radius: 48%;
+    border-top-right-radius: 48%;
+    background-color: rgba(5, 151, 160, 0.15);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 15px;
 }
-.first-img
-{
-    background-image: url("../resources/rectangle3-1.png");
-    /* height: 350px;
-    width: 300px; */
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-size: 500px 600px;
-    padding-top: 114px;
+.third-img-container{
+    height: 475px;
+    width: 425px;
+    border-top-left-radius: 48%;
+    border-top-right-radius: 48%;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding-top: 10px;
+    padding-left: 30px;
     
 }
-.second-img{
-    background-image: url("../resources/rectangle3.png");
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-size: 500px 600px;
-    padding-top: 75px;
+.flower-img{
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 90%;
+}
+.first-img{   
+    width: 85%;
 }
 .third-img{
-    background-image: url("../resources/rectangle3-2.png");
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-size: 500px 600px;
-    padding-top: 73px;
+    width: 85%;
 }
+.first-section{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-section{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.third-section{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-img{
+    width: 100%;
+}
+
+/* .caption{
+    border: 2px solid black;
+} */
 .img-caption{
     font-size: 20px;
     font-weight: 600;
@@ -187,7 +237,7 @@
 
 }
 /* .second-fig{
-    margin-top: 78px;
+    margin-top: 190px;
 } */
 .service-container{
     margin-top: 150px;
